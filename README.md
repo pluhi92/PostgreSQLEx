@@ -2,7 +2,9 @@ Project of PostgreSQL-JAVA connection. This project shows how to edit a PostgreS
 Important to download jdbc postgreSQL connector from: https://jdbc.postgresql.org/download.html
 
 URL: "jdbc:postgresql://localhost:5432/postgres", 
+
 USER: "postgres", 
+
 PASSWORD: "........"
 
 Example for creating a new table in pgAdmin: 
