@@ -51,15 +51,15 @@ class PostgreSQLEx extends JFrame {
         add(JL_id);
         add(JL_fname);
         add(JL_lname);
-        add(JL_age);
         add(JL_nationality);
-
+        add(JL_age);
+      
         add(JT_id);
         add(JT_fname);
         add(JT_lname);
-        add(JT_age);
         add(JT_nationality);
-
+        add(JT_age);
+        
         add(btn_insert);
         add(btn_update);
         add(btn_delete);
