@@ -112,7 +112,7 @@ class PostgreSQLEx extends JFrame {
         Connection con = null;
         Statement st = null;
         try {
-            con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "tomika22");
+            con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "*****"); //don't forget your password
             st = con.createStatement();
             st.executeUpdate(query);
             JOptionPane.showMessageDialog(null, "Query Executed");
